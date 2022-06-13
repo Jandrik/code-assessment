@@ -1,0 +1,21 @@
+.textandimage .velorettitext{
+    padding: 50px;
+    align-self: center;
+}
+.velorettipic{
+    object-fit: cover;
+    height: 500px!important;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+.textandimage .content-row {
+display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap;
+}
+.velorettipic{
+object-fit: cover;
+    height: 350px!important;
+    width: 100%;
+}
+}
