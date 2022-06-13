@@ -20,3 +20,15 @@
     padding: 10px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .row.content-row.col__gutter.col__line-spacing.col-md__between {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .usp-services .service{
+    min-width: 100%;
+  }
+}
+
+
